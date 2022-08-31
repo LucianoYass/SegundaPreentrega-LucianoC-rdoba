@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<title>CONTACTO</title>
+	</head>
+<body>
+	<body id="bodyFont">
+		<!--Header con navegacion entre todas las paginas disponibles-->
+		<header id="header">
+			<div class="header__logo">
+				<a href="../index.html"><img src="../images/logo2.png" alt="logo" class="header__logo__img animate__animated animate__bounce"></a>
+				<h2 class="header__logo__nombre--negrita animate__animated animate__fadeIn">Luciano Cordoba Filmmaker</h2>
+			</div>
+			<nav class="header__nav">
+				<ul class="header__nav__lista">
+					<li><a href="../index.html" class="header__nav__lista__link">Inicio</a></li>
+					<li><a href="videos.html" class="header__nav__lista__link">Videos</a></li>
+					<li><a href="paquetes.html" class="header__nav__lista__link">Paquetes</a></li>
+					<li><a href="sobremi.html" class="header__nav__lista__link">Sobre mí</a></li>
+					<li><a href="contacto.html" class="header__nav__lista__link">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+	<main id="main">
+		<section class="seccion">
+			<aside id="aside">
+				<div>Mis redes sociales</div>
+				<a href="https://www.instagram.com/luchocordobaph/">
+					<img src="../images/instagram.png" height="100px" class="asideImgUno">
+				</a>
+				<a href="https://www.youtube.com/channel/UCYFB6oCFcljsN2oNMIyZRNQ">
+					<img src="../images/youtube.png" height="85px" class="asideImgDos">
+				</a>
+			</aside>
+			<article class="articulo">
+				<!--Formulario de contacto-->
+				<div class="formulario">
+					<form method="post" class="formulario__datos">
+						<fieldset class="formulario__datos__form">
+							<legend>CONTACTAME</legend>
+							<label for="nombre">Nombre:</label>
+							<input type="text" name="nombre" class="btn"><br>
+							<label for="apellido">Apellido:</label>
+							<input type="text" name="apellido" class="btn"><br>
+							<label for="email">E-mail:</label>
+							<input type="email" name="email" class="btn"><br>
+							<label for="Estado civil">Estado civil:</label>
+							<select name="Estado civil" class="btn">
+								<option value="Soltero/a">Soltero/a</option>
+								<option value="Casado/a">Casado/a</option>
+							</select><br>
+							<div>
+								¿Desea recibir el Newsletter?
+								<input type="checkbox" name="acepta" value="1" class="btn">
+							</div>
+							<textarea name="comentarios" placeholder="Comentarios..." cols="30" rows="10" class="btn"></textarea><br>
+							<input type="submit" value="Enviar formulario" class="btn--green">
+							<input type="reset" value="Limpiar formulario" class="btn--red">
+						</fieldset>
+					</form>
+				</div>
+			</article>
+			
+			<!--Enlaces a mis redes sociales, tengo pensado mostrarlo a la derecha del formulario, o tambien abajo de todo, esta sujeto a cambios-->
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="footer__copyright">
+			<h3>Copyright 2022 - Luciano Cordoba</h3>
+		</div>
+		<nav class="footer__nav">
+			<h3><a href="contacto.html" class="footer__nav__link">CONTACTO</a></h3>
+		</nav>
+	</footer>
+</body>
+</html>
